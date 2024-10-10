@@ -9,7 +9,7 @@ playlist_url = ''
 # Set the download options
 ydl_opts = {
     'outtmpl': '%(title)s.%(ext)s',  # Save using the video title as filename
-    'format': 'bestvideo+bestaudio/best',  # Download best quality video and audio combined, fallback to best
+    'format': 'best',  # Download best quality video and audio combined, fallback to best
 }
 
 
